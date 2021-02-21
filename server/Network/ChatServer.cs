@@ -22,7 +22,7 @@ namespace server.Network
         {
             m_Config = new NetPeerConfiguration("dedichat")
             { Port = port };
-            m_NetServer = new NetServer(m_Config); //test
+            m_NetServer = new NetServer(m_Config);
             try
             {
                 m_NetServer.Start();
